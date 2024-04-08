@@ -1,5 +1,5 @@
 /*
- * 1.c
+ * Example1.c
  *
  *  Created on: Apr 8, 2024
  *      Author: Ahmed Elnabawe

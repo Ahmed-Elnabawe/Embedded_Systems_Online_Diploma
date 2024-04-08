@@ -13,7 +13,7 @@ void main (){
 	printf("Enter the first number :"); // asking user to enter the first number
 	fflush(stdin);fflush(stdout); //clearing the buffer
 	scanf("%d",&num1); // scanning the first number
-	printf("Enter the first number :"); // asking user to enter the second number
+	printf("Enter the second number :"); // asking user to enter the second number
 	fflush(stdin);fflush(stdout); //clearing the buffer
 	scanf("%d",&num2); // scanning the second number
 	printf("the sum is = %d ", (num1+num2)); // printing the sum to user

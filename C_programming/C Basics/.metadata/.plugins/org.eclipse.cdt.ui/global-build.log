@@ -1,0 +1,272 @@
+15:47:01 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex1.exe Example1.o 
+15:47:02 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex2.exe Example2.o 
+15:47:02 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:55:15 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:13:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+          ^
+..\Example4.c:13:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+            ^
+..\Example4.c:14:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("the sum is = %d",(n1+n2));
+  ^~~~~~
+gcc -o ex4.exe Example4.o 
+Example4.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\C Basics\ex4\Debug/../Example4.c:14: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:55:28 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:13:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+          ^
+..\Example4.c:13:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+            ^
+..\Example4.c:14:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:55:57 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+          ^
+..\Example4.c:14:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+            ^
+..\Example4.c:15:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:56:10 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %d",&n1,&n2);
+          ^
+..\Example4.c:14:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d %d",&n1,&n2);
+             ^
+..\Example4.c:15:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:57:31 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+          ^
+..\Example4.c:14:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d",&n1,&n2);
+            ^
+..\Example4.c:15:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:58:07 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d %d",&n1,&n2);
+          ^
+..\Example4.c:14:13: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d %d",&n1,&n2);
+             ^
+..\Example4.c:15:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+15:59:04 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&n1);
+          ^
+..\Example4.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&n2);
+          ^
+..\Example4.c:18:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",(n1+n2));
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+15:59:38 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example4.c: In function 'main':
+..\Example4.c:14:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&n1);
+          ^
+..\Example4.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d",&n2);
+          ^
+..\Example4.c:18:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("the sum is = %d",n1+n2);
+                        ^
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+16:00:51 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex4.exe Example4.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+16:01:17 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+16:02:03 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+16:03:42 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+16:11:13 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex1.exe Example1.o 
+16:11:14 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex2.exe Example2.o 
+16:11:14 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4

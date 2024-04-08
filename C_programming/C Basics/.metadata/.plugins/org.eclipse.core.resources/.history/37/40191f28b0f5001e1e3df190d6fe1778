@@ -1,0 +1,17 @@
+/*
+ * Example4.c
+ *
+ *  Created on: Apr 8, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+
+#include <stdio.h> // calling stander input output lib
+void main (){
+	float n1=0 , n2=0 ;
+	printf("enter two numbers : ");
+	fflush(stdin);fflush(stdout); //clearing the buffer
+	scanf("%d %d",&n1,&n2);
+	printf("the sum is = %d",(n1+n2));
+
+}
