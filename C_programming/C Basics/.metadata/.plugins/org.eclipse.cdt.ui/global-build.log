@@ -270,3 +270,93 @@ Info: Nothing to build for ex1
 Info: Nothing to build for ex2
 Info: Nothing to build for ex3
 Info: Nothing to build for ex4
+17:08:29 **** Rebuild of configuration Debug for project ex1 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex1 homework1.exe" Example1.o 
+17:08:29 **** Rebuild of configuration Debug for project ex2 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex2 homework1.exe" Example2.o 
+17:08:30 **** Rebuild of configuration Debug for project ex3 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex3 homework1.exe" Example3.o 
+17:08:30 **** Rebuild of configuration Debug for project ex4 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex4 homework1.exe" Example4.o 
+17:08:30 **** Rebuild of configuration Debug for project ex5 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example5.o "..\\Example5.c" 
+..\Example5.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+..\Example5.c: In function 'main':
+..\Example5.c:11:9: error: lvalue required as left operand of assignment
+  fflush =(stdin);fflush(stdout);
+         ^
+Info: Nothing to build for ex1 homework1
+Info: Nothing to build for ex2 homework1
+Info: Nothing to build for ex3 homework1
+Info: Nothing to build for ex4 homework1
+17:08:50 **** Incremental Build of configuration Debug for project ex5 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example5.o "..\\Example5.c" 
+..\Example5.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex5 homework1.exe" Example5.o 
+Info: Nothing to build for ex5 homework1
+Info: Nothing to build for ex1 homework1
+Info: Nothing to build for ex2 homework1
+Info: Nothing to build for ex3 homework1
+Info: Nothing to build for ex4 homework1
+Info: Nothing to build for ex5 homework1
+17:23:34 **** Rebuild of configuration Debug for project ex6 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex6 homework1.exe" Example6.o 
+Info: Nothing to build for ex6 homework1
+Info: Nothing to build for ex1 homework1
+Info: Nothing to build for ex2 homework1
+Info: Nothing to build for ex3 homework1
+Info: Nothing to build for ex4 homework1
+Info: Nothing to build for ex5 homework1
+17:24:09 **** Incremental Build of configuration Debug for project ex6 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex6 homework1.exe" Example6.o 
+Info: Nothing to build for ex6 homework1
+Info: Nothing to build for ex1 homework1
+Info: Nothing to build for ex2 homework1
+Info: Nothing to build for ex3 homework1
+Info: Nothing to build for ex4 homework1
+Info: Nothing to build for ex5 homework1
+Info: Nothing to build for ex6 homework1
+17:38:55 **** Rebuild of configuration Debug for project ex7 homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (){
+      ^~~~
+gcc -o "ex7 homework1.exe" Example7.o 
+Info: Nothing to build for ex7 homework1
