@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="G:\c apps\whilee\ex3"/>
+		<item value="G:\c apps\whilee\ex2"/>
+		<item value="G:\c apps\whilee\ex1"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>
