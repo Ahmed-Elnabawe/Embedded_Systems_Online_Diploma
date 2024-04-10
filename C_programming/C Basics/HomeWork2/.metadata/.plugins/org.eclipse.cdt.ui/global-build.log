@@ -1,0 +1,369 @@
+15:31:52 **** Rebuild of configuration Debug for project ex1 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex1 homework2.exe" Example1.o 
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex1 homework2
+15:45:43 **** Rebuild of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex2 homework2.exe" Example2.o 
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex1 homework2
+15:45:56 **** Incremental Build of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex2 homework2.exe" Example2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2 homework2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1 homework2
+15:46:19 **** Incremental Build of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -o "ex2 homework2.exe" Example2.o 
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex1 homework2
+15:54:27 **** Incremental Build of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex2 homework2.exe" Example2.o 
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+16:19:55 **** Rebuild of configuration Debug for project ex3 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex3 homework2.exe" Example3.o 
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+16:24:09 **** Incremental Build of configuration Debug for project ex3 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex3 homework2.exe" Example3.o 
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+16:33:42 **** Rebuild of configuration Debug for project ex4 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex4 homework2.exe" Example4.o 
+16:33:50 **** Incremental Build of configuration Debug for project ex3 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex3 homework2.exe" Example3.o 
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+04:49:03 **** Rebuild of configuration Debug for project ex5 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example5.o "..\\Example5.c" 
+..\Example5.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex5 homework2.exe" Example5.o 
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex5 homework2
+04:53:30 **** Incremental Build of configuration Debug for project ex5 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example5.o "..\\Example5.c" 
+..\Example5.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex5 homework2.exe" Example5.o 
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+05:04:04 **** Rebuild of configuration Debug for project ex6 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example6.c: In function 'main':
+..\Example6.c:20:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("the sum is : ",sum);
+         ^~~~~~~~~~~~~~~
+gcc -o "ex6 homework2.exe" Example6.o 
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+05:04:42 **** Incremental Build of configuration Debug for project ex6 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex6 homework2.exe" Example6.o 
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+05:11:48 **** Incremental Build of configuration Debug for project ex6 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex6 homework2.exe" Example6.o 
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+23:35:55 **** Incremental Build of configuration Debug for project ex6 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+..\Example6.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex6 homework2.exe" Example6.o 
+23:35:56 **** Rebuild of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+gcc -o "ex7 homework2.exe" Example7.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:43:00 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:43:26 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:43:40 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:44:59 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:45:55 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:46:32 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:48:05 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+23:48:27 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+..\Example7.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+23:58:38 **** Rebuild of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+..\Example8.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example8.c: In function 'main':
+..\Example8.c:17:27: error: expected expression before ')' token
+  scanf("%d%d",&num1,&num2,); // reading  values form user
+                           ^
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+23:59:05 **** Incremental Build of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+..\Example8.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex8 homework2.exe" Example8.o 
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+23:59:43 **** Incremental Build of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+..\Example8.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex8 homework2.exe" Example8.o 
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+00:01:47 **** Incremental Build of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+..\Example8.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex8 homework2.exe" Example8.o 
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+00:03:06 **** Incremental Build of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+..\Example8.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex8 homework2.exe" Example8.o 
+Info: Nothing to build for ex8 homework2

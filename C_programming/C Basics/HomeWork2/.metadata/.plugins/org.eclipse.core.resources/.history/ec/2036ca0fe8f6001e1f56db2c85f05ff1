@@ -1,0 +1,21 @@
+/*
+ * Example1.c :   program to calculate sum of natural numbers
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> //calling stander input output lib
+void main ()
+{
+	int number,sum=0  ;
+	int i;
+	printf("enter an integer number : ");
+	fflush(stdin);fflush(stdout); //clearing the buffer
+	scanf("%d",&number);
+	for(i=1;i<=number;i++)
+	{
+		sum=sum+i;
+	}
+	printf("the sum is : %d ",sum);
+}

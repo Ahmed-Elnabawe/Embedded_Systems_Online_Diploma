@@ -1,0 +1,16 @@
+/*
+ * Example1.c : Consonant or Vowel Check to Program C
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> //calling stander input output lib
+void main ()
+{
+	char ch; // declaring a variable read the value from user
+	printf("Enter an alphabet: :"); // asking user to enter the alphabet
+	fflush(stdin);fflush(stdout); //clearing the buffer
+	scanf("%c",&ch); // reading the alphabet form user
+
+
+}

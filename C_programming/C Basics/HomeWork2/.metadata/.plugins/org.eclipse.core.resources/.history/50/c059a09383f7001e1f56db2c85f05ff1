@@ -1,0 +1,27 @@
+/*
+ * Example1.c :   program to calculate the factorial
+ *
+ *  Created on: Apr 9, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> //calling stander input output lib
+void main ()
+{
+	int number ,fact; //declaring a variable to read the value of number from user and another one to calculate factorial
+	int i; // a counter for the loop
+	printf("enter an integer number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout); //clearing the buffer
+	scanf("%d",&number); // reading the value from user
+	if(number>=0)
+	{
+		for(i=1;i<=number;i++) // starting a loop from i = 1 to the number(from user)
+		{
+			fact*=i; //adding the value of i in each iteration to the sum
+		}
+		printf("the sum is : %d ",fact);//printing the value to user
+
+	}
+	else printf(" %d is not a positive number ",number);//tell user to enter a positive number
+
+	}
