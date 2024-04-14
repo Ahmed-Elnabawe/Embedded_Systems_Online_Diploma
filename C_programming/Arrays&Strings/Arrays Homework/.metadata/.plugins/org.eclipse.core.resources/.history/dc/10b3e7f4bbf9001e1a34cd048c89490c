@@ -1,0 +1,17 @@
+/*
+ * Example2.c : program to find transpose matrix
+ *
+ *  Created on: Apr 13, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h>
+void main ()
+{
+	int rows , colons;// two variables to read the number of rows and colons from user
+	int matrix [50][50];// the original matrix
+	printf("enter the number of rows and colons : ");//asking user to enter the number of rows and colons
+	fflush(stdin);fflush(stdout);
+	scanf("%d%d",&rows,&colons);
+
+
+}
