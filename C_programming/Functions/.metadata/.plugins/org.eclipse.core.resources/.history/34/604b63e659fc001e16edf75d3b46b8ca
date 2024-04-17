@@ -1,0 +1,14 @@
+/*
+ * Example1.c : calculating the factorial using recursion
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> // including stander input output lib
+void main()
+{
+	int number;
+	printf("enter  number : "); // asking user to enter the number
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d%d",&number);// scanning the number from user
+}

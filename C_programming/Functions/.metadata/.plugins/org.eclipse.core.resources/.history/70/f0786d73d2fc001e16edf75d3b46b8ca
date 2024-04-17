@@ -1,0 +1,8 @@
+/*
+ * Example4.c : calculating power using recursion
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> // including stander input output lib
+

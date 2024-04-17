@@ -1,0 +1,1021 @@
+02:36:22 **** Rebuild of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+02:38:16 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:38:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+02:39:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'printig_prime_between_intervals':
+..\Example1.c:24:13: error: expected expression before '<' token
+   for(j=2;j=<i;j++)
+             ^
+02:40:01 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:40:18 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:40:32 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:41:16 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:41:36 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:53:43 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+02:54:44 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:00:15 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'printig_prime_between_intervals':
+..\Example1.c:26:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(j=2;j<=i;j++) // between 2 and the number we going to check if the number is divided by each value smaller than it
+   ^~~
+..\Example1.c:33:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    if (flag==1)printf("%d ",i);
+    ^~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:00:37 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'printig_prime_between_intervals':
+..\Example1.c:26:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(j=2;j<=i;j++) // between 2 and the number we going to check if the number is divided by each value smaller than it
+   ^~~
+..\Example1.c:33:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    if (flag==0) printf("%d ",i);
+    ^~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+03:01:46 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'printig_prime_between_intervals':
+..\Example1.c:26:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(j=2;j<=i;j++) // between 2 and the number we going to check if the number is divided by each value smaller than it
+   ^~~
+..\Example1.c:33:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    if (flag==0) printf("%d ",i);
+    ^~
+gcc -o ex1.exe Example1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:01:49 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe Example1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:01:53 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe Example1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:02:02 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:08:12 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'main':
+..\Example1.c:19:10: warning: implicit declaration of function 'chek_prime' [-Wimplicit-function-declaration]
+   int g =chek_prime(i);
+          ^~~~~~~~~~
+gcc -o ex1.exe Example1.o 
+Example1.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\Functions\ex1\Debug/../Example1.c:19: undefined reference to `chek_prime'
+collect2.exe: error: ld returned 1 exit status
+03:08:23 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'main':
+..\Example1.c:19:10: warning: implicit declaration of function 'check_prime' [-Wimplicit-function-declaration]
+   int g =check_prime(i);
+          ^~~~~~~~~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:08:37 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'main':
+..\Example1.c:19:10: warning: implicit declaration of function 'check_prime' [-Wimplicit-function-declaration]
+   int g =check_prime(i);
+          ^~~~~~~~~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:18:21 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+..\Example1.c: In function 'check_prime':
+..\Example1.c:34:2: error: expected declaration or statement at end of input
+  return flag; // return the flag to make check on it
+  ^~~~~~
+03:19:35 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+03:20:51 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+..\Example1.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+03:29:15 **** Rebuild of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\Example2.c: In function 'main':
+..\Example2.c:14:12: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+  scanf("%d%d",&number);// scanning the number from user
+            ^
+..\Example2.c:15:14: warning: implicit declaration of function 'fact' [-Wimplicit-function-declaration]
+  factorial = fact(number);
+              ^~~~
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+03:31:42 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\Example2.c: In function 'main':
+..\Example2.c:15:14: warning: implicit declaration of function 'fact' [-Wimplicit-function-declaration]
+  factorial = fact(number);
+              ^~~~
+gcc -o ex2.exe Example2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+03:32:36 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex2
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+03:33:56 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\Example2.c: In function 'main':
+..\Example2.c:15:14: warning: implicit declaration of function 'fact' [-Wimplicit-function-declaration]
+  factorial = fact(number);
+              ^~~~
+gcc -o ex2.exe Example2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:34:10 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex1
+03:52:14 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\Example2.c: In function 'main':
+..\Example2.c:15:14: warning: implicit declaration of function 'fact' [-Wimplicit-function-declaration]
+  factorial = fact(number); // calling the function
+              ^~~~
+gcc -o ex2.exe Example2.o 
+03:52:15 **** Rebuild of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:11:7: error: array size missing in 'sentence'
+  char sentence []; // string to read the sentence from user
+       ^~~~~~~~
+..\Example3.c:12:2: error: expected declaration or statement at end of input
+  printf("enter a sentence "); // asking user to enter a sentence
+  ^~~~~~
+..\Example3.c:11:7: warning: unused variable 'sentence' [-Wunused-variable]
+  char sentence []; // string to read the sentence from user
+       ^~~~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+03:52:32 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:12:2: error: expected declaration or statement at end of input
+  printf("enter a sentence "); // asking user to enter a sentence
+  ^~~~~~
+..\Example3.c:11:7: warning: unused variable 'sentence' [-Wunused-variable]
+  char sentence [20]; // string to read the sentence from user
+       ^~~~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+03:52:46 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:11:7: warning: unused variable 'sentence' [-Wunused-variable]
+  char sentence [20]; // string to read the sentence from user
+       ^~~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+03:56:03 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+03:56:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:03:39 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: At top level:
+..\Example3.c:19:5: error: conflicting types for 'reverse'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+..\Example3.c:9:6: note: previous declaration of 'reverse' was here
+ void reverse (char []);
+      ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:2: warning: implicit declaration of function 'revese' [-Wimplicit-function-declaration]
+  revese(sen[20],size-1);
+  ^~~~~~
+..\Example3.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:03:53 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: At top level:
+..\Example3.c:19:5: error: conflicting types for 'reverse'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char []);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:2: warning: implicit declaration of function 'revese' [-Wimplicit-function-declaration]
+  revese(sen[20],size-1);
+  ^~~~~~
+..\Example3.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:03:57 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: At top level:
+..\Example3.c:19:5: error: conflicting types for 'reverse'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char []);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:2: warning: implicit declaration of function 'revese' [-Wimplicit-function-declaration]
+  revese(sen[20],size-1);
+  ^~~~~~
+..\Example3.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:04:46 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: At top level:
+..\Example3.c:19:5: error: conflicting types for 'reverse'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char []);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:2: warning: implicit declaration of function 'revese' [-Wimplicit-function-declaration]
+  revese(sen[20],size-1);
+  ^~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:05:00 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:2: warning: implicit declaration of function 'revese' [-Wimplicit-function-declaration]
+  revese(sen[20],size-1);
+  ^~~~~~
+gcc -o ex3.exe Example3.o 
+Example3.o: In function `reverse':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\Functions\ex3\Debug/../Example3.c:26: undefined reference to `revese'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:05:19 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:26:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:19:5: note: expected 'char *' but argument is of type 'char'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:06:23 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:5: note: expected 'char *' but argument is of type 'char'
+ int reverse (char sen [20],int size)
+     ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:07:18 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: At top level:
+..\Example3.c:20:6: error: conflicting types for 'reverse'
+ void reverse (char sen [20],int size)
+      ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char [],int);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:6: note: expected 'char *' but argument is of type 'char'
+ void reverse (char sen [20],int size)
+      ^~~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:07:56 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: At top level:
+..\Example3.c:20:7: error: conflicting types for 'reverse'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char [],int);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+04:08:03 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: At top level:
+..\Example3.c:20:7: error: conflicting types for 'reverse'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+..\Example3.c:9:5: note: previous declaration of 'reverse' was here
+ int reverse (char [],int);
+     ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:08:35 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:09:38 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c: In function 'reverse':
+..\Example3.c:27:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:20:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char *sen ,int size)
+       ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:10:25 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:28:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:21:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:13:59 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:19:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sentence[20],size);
+          ^~~~~~~~
+..\Example3.c:10:6: note: expected 'char *' but argument is of type 'char'
+ void reverse (char [],int);
+      ^~~~~~~
+..\Example3.c: In function 'reverse':
+..\Example3.c:28:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sen[20],size-1);
+          ^~~
+..\Example3.c:21:7: note: expected 'char *' but argument is of type 'char'
+ void  reverse (char sen [20],int size)
+       ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:14:40 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:19:10: warning: passing argument 1 of 'reverse' makes pointer from integer without a cast [-Wint-conversion]
+  reverse(sentence[20],size);
+          ^~~~~~~~
+..\Example3.c:10:6: note: expected 'char *' but argument is of type 'char'
+ void reverse (char [],int);
+      ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:16:41 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:17:30 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\Example3.c:12:6: warning: variable 'size' set but not used [-Wunused-but-set-variable]
+  int size ; // saves length of sentence
+      ^~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:17:39 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:18:23 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:20:28 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:20:46 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+04:21:08 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c:10:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+..\Example3.c: In function 'main':
+..\Example3.c:17:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  size = strlen(sentence);
+         ^~~~~~
+..\Example3.c:17:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\Example3.c:17:9: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:23:16 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:25:40 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+04:26:34 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:40:36 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Example3.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\Functions\ex3\Debug/../Example3.c:9: undefined reference to `reverse_string'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:40:47 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+..\Example3.c: In function 'main':
+..\Example3.c:9:2: warning: implicit declaration of function 'reverse' [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+..\Example3.c: At top level:
+..\Example3.c:14:6: warning: conflicting types for 'reverse'
+ void reverse ()
+      ^~~~~~~
+..\Example3.c:9:2: note: previous implicit declaration of 'reverse' was here
+  reverse();
+  ^~~~~~~
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:41:02 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+04:41:22 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+04:41:56 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+17:37:20 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:37:49 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:38:06 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:39:03 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:52:11 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:52:11 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c: In function 'main':
+..\Example4.c:18:12: warning: implicit declaration of function 'power_calc' [-Wimplicit-function-declaration]
+  resulte = power_calc(power,base);
+            ^~~~~~~~~~
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:53:17 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:53:18 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c: In function 'main':
+..\Example4.c:17:40: warning: implicit declaration of function 'power_calc' [-Wimplicit-function-declaration]
+  printf("%d ^ %d = %d ",base , power , power_calc(power,base);
+                                        ^~~~~~~~~~
+..\Example4.c:17:62: error: expected ')' before ';' token
+  printf("%d ^ %d = %d ",base , power , power_calc(power,base);
+                                                              ^
+..\Example4.c:18:1: error: expected ';' before '}' token
+ }
+ ^
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:53:39 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:53:39 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+..\Example4.c: In function 'main':
+..\Example4.c:17:40: warning: implicit declaration of function 'power_calc' [-Wimplicit-function-declaration]
+  printf("%d ^ %d = %d ",base , power , power_calc(power,base));
+                                        ^~~~~~~~~~
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:54:23 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:54:23 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+17:58:47 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:58:48 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+gcc -o ex4.exe Example4.o 

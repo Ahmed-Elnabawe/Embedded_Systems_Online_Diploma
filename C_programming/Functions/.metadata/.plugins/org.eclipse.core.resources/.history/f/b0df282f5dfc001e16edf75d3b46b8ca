@@ -1,0 +1,12 @@
+/*
+ * Example3.c : reverse sentence using recursion
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> // including stander input output lib
+void main ()
+{
+	char sentence [20]; // string to read the sentence from user
+	printf("enter a sentence "); // asking user to enter a sentence

@@ -1,0 +1,27 @@
+/*
+ * Example4.c : calculating power using recursion
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> // including stander input output lib
+int main (void)
+{
+	int base , power ; // variables to read base and power from user
+	int resulte =1 ;// variable to save the value of the function
+	printf("enter the base : ");//asking user to enter base
+	fflush(stdin);fflush(stdout); // clearing the buffer
+	scanf("%d",&base);//scanning the value from user
+	printf("enter the power : ");//asking user to enter power
+	fflush(stdin);fflush(stdout); // clearing the buffer
+	scanf("%d",&power);//scanning the value from user
+	resulte = power_calc(power,base);
+	printf("%d ^ %d = %d ",base , power , resulte);
+}
+int power_calc(int power , int base)
+{
+	if(power==0)
+		return 1;
+	else
+		return base*power_calc(power-1,base);
+}

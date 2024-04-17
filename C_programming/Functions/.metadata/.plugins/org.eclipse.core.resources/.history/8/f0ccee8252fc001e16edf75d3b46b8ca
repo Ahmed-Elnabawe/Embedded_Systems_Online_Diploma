@@ -1,0 +1,15 @@
+/*
+ * Example1.c : printing prime number between to intervals using function
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> // including stander input output lib
+void main (void)
+{
+	int first_number , second_number ;// define to variable to be use as intervals
+	printf("enter two numbers : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d%d",&first_number,&second_number);
+}

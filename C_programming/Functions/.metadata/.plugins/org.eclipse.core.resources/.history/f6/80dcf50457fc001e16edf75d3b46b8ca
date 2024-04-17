@@ -1,0 +1,34 @@
+/*
+ * Example1.c : printing prime number between to intervals using function
+ *
+ *  Created on: Apr 17, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> // including stander input output lib
+void printig_prime_between_intervals(int  , int  );// prototype of the printing function
+void main (void)
+{
+	int first_number , second_number ;// define to variable to be use as intervals
+	int i ; // counter for loop
+	printf("enter two numbers : "); // asking user to enter the intervals
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d%d",&first_number,&second_number);// scanning the intervals from user
+	for(i=first_number;i<second_number;i++)
+	{
+		int g =check_prime(i);
+		if (g == 0) printf("%d",i);
+	}
+}
+int check_prime(int num ) // definition of the function to print prime number between intervals
+{
+	int flag =0;
+	int i;
+	for(i=2;i<num ; i++)
+		if(num%i==0)
+		{
+			flag=1;
+			break;
+		}
+	return flag;
+}
