@@ -7,7 +7,7 @@
 
 #include <stdio.h> // including stander input output lib
 int check_prime(int);// prototype of the printing function
-void main (void)
+int main (void)
 {
 	int first_number , second_number ;// define to variable to be use as intervals
 	int i ; // counter for loop
@@ -20,6 +20,7 @@ void main (void)
 		int flag =check_prime(i); // calling the function to check if the i is prime or not
 		if (flag == 0) printf("%d ",i); // if the function returns 0 then i is prime so we will print it
 	}
+	return 0;
 }
 int check_prime(int num) // definition of the function check if the number is prime or not
 {

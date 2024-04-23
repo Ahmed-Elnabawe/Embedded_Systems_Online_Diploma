@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	float num1 ; // declaring a variable to read the value from user
 	printf("enter the number  :"); // asking user to enter the value
@@ -18,5 +18,5 @@ void main ()
 		printf("you entered zero"); // print to user that he entered zero
 	else // if the value is not positive and not zero then the value is negative
 		printf(" %f is a negative ",num1);//then the num1 is negative
-
+	return 0;
 }

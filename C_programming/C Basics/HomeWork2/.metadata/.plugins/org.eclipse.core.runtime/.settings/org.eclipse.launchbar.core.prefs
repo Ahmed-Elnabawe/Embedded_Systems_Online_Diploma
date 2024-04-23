@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:ex1 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex2 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex3 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex4 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex5 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex6 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex7 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex8 homework2.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ex8 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex1 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex2 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex3 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex4 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex5 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex6 homework2.exe,org.eclipse.launchbar.core.descriptorType.default\:ex7 homework2.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:ex1\ homework2.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ex1\ homework2.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

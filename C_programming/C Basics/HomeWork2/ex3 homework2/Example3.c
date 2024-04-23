@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	int num1,num2,num3 ; // declaring a variables to read the values from user
 	printf("enter three numbers  :"); // asking user to enter the values
@@ -18,5 +18,5 @@ void main ()
 		printf("largest number is %d",num2); // if true then num2 is the largest number
 	else //if false
 		printf("largest number is %d",num3);//then the num3 is the largest number
-
+	return 0;
 }

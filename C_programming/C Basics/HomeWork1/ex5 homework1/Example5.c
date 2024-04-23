@@ -5,13 +5,12 @@
  *      Author: Ahmed Elnabawe
  */
 #include <stdio.h> //calling the stander input output lib
-void main (){
+int main (){
 	char ch;
 	printf("Enter a character :");
 	fflush(stdin);fflush(stdout);
 	scanf("%c",&ch);
 	printf("ASCII value of %c : %d",ch,ch);
-
-
+	return 0;
 }
 

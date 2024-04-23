@@ -7,7 +7,7 @@
 
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	int number ; // declaring a variable to read the value from user
 	printf("enter the number to check whether it is odd or even :"); // asking user to enter the value
@@ -18,5 +18,5 @@ void main ()
 	else
 		printf("%d is odd",number); // if the remainder is not 0 then the number is odd
 
-
+	return 0;
 }

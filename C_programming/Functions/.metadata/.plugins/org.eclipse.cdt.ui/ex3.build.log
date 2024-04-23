@@ -1,8 +1,1 @@
-17:58:47 **** Incremental Build of configuration Debug for project ex3 ****
-Info: Internal Builder is used for build
-gcc -o ex3.exe Example3.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file ex3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-
-17:58:48 Build Finished (took 141ms)
-
+Info: Nothing to build for ex3

@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	int number,sum=0  ; //declaring a variable to read the value of number from user and another one with initial value of zero to calculate the sum
 	int i; // a counter for the loop
@@ -18,4 +18,5 @@ void main ()
 		sum=sum+i; //adding the value of i in each iteration to the sum
 	}
 	printf("the sum is : %d ",sum);//printing the value to user
+	return 0;
 }

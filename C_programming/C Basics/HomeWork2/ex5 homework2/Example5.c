@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	char ch ; // declaring a variable to read the value from user
 	printf(" Enter a character: "); // asking user to enter the value
@@ -16,5 +16,5 @@ void main ()
 			printf(" %c is alphabet ",ch); // if true then ch is alphabet
 	else // if the character is not in the range of the alphabet characters
 		printf(" %c is not alphabet ",ch);//then print the character is not alphabet
-
+	return 0;
 }

@@ -6,7 +6,7 @@
  */
 #include <stdio.h> // including stander input output lib
 int fact (int);// prototype
-void main()
+int main()
 {
 	int factorial=1; // variable to save the output of recursion
 	int number; // variable to calculate factorial of it
@@ -15,6 +15,7 @@ void main()
 	scanf("%d",&number);// scanning the number from user
 	factorial = fact(number); // calling the function
 	printf("factorial is : %d ",factorial); // print factorial to user
+	return 0;
 }
 int fact (int num )// definition of the function
 {

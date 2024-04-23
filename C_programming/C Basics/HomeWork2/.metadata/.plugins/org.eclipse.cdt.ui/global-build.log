@@ -367,3 +367,105 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c"
       ^~~~
 gcc -o "ex8 homework2.exe" Example8.o 
 Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex1 homework2
+20:26:40 **** Incremental Build of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:8:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o "ex2 homework2.exe" Example2.o 
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+20:26:40 **** Incremental Build of configuration Debug for project ex8 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example8.o "..\\Example8.c" 
+gcc -o "ex8 homework2.exe" Example8.o 
+Info: Nothing to build for ex8 homework2
+20:27:48 **** Incremental Build of configuration Debug for project ex1 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+gcc -o "ex1 homework2.exe" Example1.o 
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex1 homework2
+20:29:03 **** Incremental Build of configuration Debug for project ex2 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+gcc -o "ex2 homework2.exe" Example2.o 
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+20:29:53 **** Incremental Build of configuration Debug for project ex3 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o "ex3 homework2.exe" Example3.o 
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+20:30:42 **** Incremental Build of configuration Debug for project ex4 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+gcc -o "ex4 homework2.exe" Example4.o 
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+20:31:30 **** Incremental Build of configuration Debug for project ex5 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example5.o "..\\Example5.c" 
+gcc -o "ex5 homework2.exe" Example5.o 
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+20:32:15 **** Incremental Build of configuration Debug for project ex6 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example6.o "..\\Example6.c" 
+gcc -o "ex6 homework2.exe" Example6.o 
+Info: Nothing to build for ex7 homework2
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex6 homework2
+Info: Nothing to build for ex1 homework2
+Info: Nothing to build for ex2 homework2
+Info: Nothing to build for ex3 homework2
+Info: Nothing to build for ex4 homework2
+Info: Nothing to build for ex5 homework2
+Info: Nothing to build for ex6 homework2
+20:33:30 **** Incremental Build of configuration Debug for project ex7 homework2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example7.o "..\\Example7.c" 
+gcc -o "ex7 homework2.exe" Example7.o 
+Info: Nothing to build for ex8 homework2
+Info: Nothing to build for ex7 homework2

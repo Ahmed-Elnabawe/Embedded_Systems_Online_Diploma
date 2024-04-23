@@ -286,3 +286,30 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c"
       ^~~~
 gcc -o ex3.exe Example3.o 
 Info: Nothing to build for ex3
+20:45:56 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+gcc -o ex1.exe Example1.o 
+20:45:56 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+..\Example2.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main ()
+      ^~~~
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+20:46:57 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex2
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+20:48:01 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example3.o "..\\Example3.c" 
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex3

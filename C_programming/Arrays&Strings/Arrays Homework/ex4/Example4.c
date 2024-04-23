@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h>
-void main ()
+int main ()
 {
 	int array_size;// declare variable to read the size of array from user
 	int array [50];// declare an array
@@ -49,5 +49,5 @@ void main ()
 	{
 		printf("%d\t",array[i]);
 	}
-
+	return 0;
 }

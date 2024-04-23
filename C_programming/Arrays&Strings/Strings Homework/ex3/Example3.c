@@ -7,7 +7,7 @@
 
 #include <stdio.h> // including stander input output lib
 #include <string.h>// including string lib
-void main ()
+int main ()
 {
 	char c[50]; // array of character (string)
 
@@ -28,5 +28,6 @@ void main ()
 		j--;//decrement j to be compared with i in the while condition
 	}
 	printf("the reversed string  is : %s ",c); // print the reversed string to user
+	return 0;
 }
 

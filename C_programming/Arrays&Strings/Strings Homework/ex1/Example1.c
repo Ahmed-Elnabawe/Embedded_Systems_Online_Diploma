@@ -2,11 +2,11 @@
  * Example1.c : find frequency of characters in strings
  *
  *  Created on: Apr 14, 2024
- *      Author: Lenovo
+ *      Author: Ahmed Elnabawe
  */
 #include <stdio.h> // including stander input output lib
-#include <string.h>
-void main ()
+#include <string.h>// including string lib
+int main ()
 {
 	char c[50]; // array of character (string)
 	char ch ; // variable to read character from user to find the frequency of it
@@ -26,4 +26,5 @@ void main ()
 		}
 	}
 	printf("the frequency is : %d ",counter); // print frequency to user
+	return 0;
 }

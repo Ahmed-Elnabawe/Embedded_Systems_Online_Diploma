@@ -7,7 +7,7 @@
 
 
 #include <stdio.h> //calling the stander input output lib
-void main (){
+int main (){
 
 	int num1, num2; // declaring to variable to store values from user
 	printf("Enter the first number :"); // asking user to enter the first number
@@ -30,6 +30,6 @@ void main (){
 	printf("--------------------------------\n");
 	printf("two numbers after swapping \n");
 	printf("num1 = %d  num2 = %d \n",num1,num2);
-
+	return 0 ;
 
 }

@@ -5,7 +5,7 @@
  *      Author: Ahmed Elnabawe
  */
 #include <stdio.h>
-void main ()
+int main ()
 {
 	int searched_element; // variable to read the value to be searched from user
 	int array[50] ;// an array to save some data from user
@@ -41,5 +41,6 @@ void main ()
 	/*------------------------- printing the result to user -------------------------*/
 	if(found==1) printf("%d is found in position %d",searched_element , position);
 	else printf("%d is not found",searched_element);
+	return 0;
 }
 

@@ -1019,3 +1019,30 @@ collect2.exe: error: ld returned 1 exit status
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
 gcc -o ex4.exe Example4.o 
+20:49:28 **** Incremental Build of configuration Debug for project ex1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example1.o "..\\Example1.c" 
+gcc -o ex1.exe Example1.o 
+Info: Nothing to build for ex2
+20:49:28 **** Incremental Build of configuration Debug for project ex3 ****
+Info: Internal Builder is used for build
+gcc -o ex3.exe Example3.o 
+Info: Nothing to build for ex4
+Info: Nothing to build for ex1
+Info: Nothing to build for ex1
+20:50:19 **** Incremental Build of configuration Debug for project ex2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example2.o "..\\Example2.c" 
+gcc -o ex2.exe Example2.o 
+Info: Nothing to build for ex3
+Info: Nothing to build for ex4
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+Info: Nothing to build for ex1
+Info: Nothing to build for ex2
+Info: Nothing to build for ex3
+20:51:59 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Example4.o "..\\Example4.c" 
+gcc -o ex4.exe Example4.o 
+Info: Nothing to build for ex4

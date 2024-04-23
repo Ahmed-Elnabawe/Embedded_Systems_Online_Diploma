@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling the stander input output lib
-void main (){
+int main (){
 
 	int num1, num2; // declaring to variable to store values from user
 	int temp; // variable to save the value of one of the two variables
@@ -29,6 +29,6 @@ void main (){
 	printf("--------------------------------\n");
 	printf("two numbers after swapping \n");
 	printf("num1 = %d  num2 = %d \n",num1,num2);
-
+	return 0 ;
 
 }

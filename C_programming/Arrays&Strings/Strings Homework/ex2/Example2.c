@@ -2,11 +2,11 @@
  * Example2.c : find the length of string
  *
  *  Created on: Apr 14, 2024
- *      Author: Lenovo
+ *      Author: Ahmed Elnabawe
  */
 
 #include <stdio.h> // including stander input output lib
-void main ()
+int main ()
 {
 	char c[50]; // array of character (string)
 
@@ -20,4 +20,5 @@ void main ()
 			counter++;// increment counter at each character
 	}
 	printf("the length is : %d ",counter); // print the length to user
+	return 0;
 }

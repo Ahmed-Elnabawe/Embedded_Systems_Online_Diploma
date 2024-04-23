@@ -8,7 +8,7 @@
 
 #include <stdio.h> // including stander input output lib
 
-void main ()
+int main ()
 {
 	float matrix_a [2][2]; // declaring the first matrix
 	float matrix_b [2][2]; // declaring the second matrix
@@ -55,4 +55,5 @@ void main ()
 		}
 		printf("\n");// print new line
 	}
+	return 0;
 }

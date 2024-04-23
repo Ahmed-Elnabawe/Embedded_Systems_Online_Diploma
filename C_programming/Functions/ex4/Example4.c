@@ -16,6 +16,7 @@ int main (void)
 	fflush(stdin);fflush(stdout); // clearing the buffer
 	scanf("%d",&power);//scanning the value from user
 	printf("%d ^ %d = %d ",base , power , power_calc(power,base)); // calling the function and printing the result
+	return 0;
 }
 int power_calc(int power , int base)// function definition
 {

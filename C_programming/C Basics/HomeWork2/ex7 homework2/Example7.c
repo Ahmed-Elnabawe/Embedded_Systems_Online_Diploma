@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	int number ,fact=1; //declaring a variable to read the value of number from user and another one to calculate factorial
 	int i; // a counter for the loop
@@ -20,8 +20,7 @@ void main ()
 			fact*=i; // calculate the factorial
 		}
 		printf("the factorial is : %d ",fact);//printing the value to user
-
 	}
 	else printf("error factorial of a negative number is not exist  ");//tell user to enter a positive number
-
-	}
+	return 0;
+}

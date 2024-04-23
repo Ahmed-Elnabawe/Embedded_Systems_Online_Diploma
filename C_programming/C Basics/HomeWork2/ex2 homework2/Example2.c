@@ -1,11 +1,11 @@
 /*
- * Example1.c : Consonant or Vowel Check to Program C
+ * Example1.c : Program C to Check Consonant or Vowel
  *
  *  Created on: Apr 9, 2024
  *      Author: Ahmed Elnabawe
  */
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	char ch; // declaring a variable read the value from user
 	printf("Enter an alphabet: "); // asking user to enter the alphabet
@@ -42,5 +42,5 @@ void main ()
 		printf(" %c is a consonant.",ch); // print to user that the alphabet is consonant
 	}
 	}
-
+	return 0;
 }

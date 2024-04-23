@@ -5,7 +5,7 @@
  *      Author: Ahmed Elnabawe
  */
 #include <stdio.h>
-void main ()
+int main ()
 {
 	int rows , colons;// two variables to read the number of rows and colons from user
 	int original_matrix [50][50];// the original matrix
@@ -55,4 +55,5 @@ void main ()
 		}
 		printf("\n");// print new line
 	}
+	return 0;
 }

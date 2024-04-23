@@ -5,7 +5,7 @@
  *      Author: Ahmed Elnabawe
  */
 #include <stdio.h> //calling stander input output lib
-void main ()
+int main ()
 {
 	float num1,num2 ; // declaring a variables to read the values from user
 	char ch; // declaring a variable read the operator from user
@@ -41,5 +41,5 @@ void main ()
 		printf(" %c is not an operator.",ch); // print to user that the operator is not correct
 	}
 	}
-
+	return 0;
 }
