@@ -1,0 +1,22 @@
+/*
+ * Find_unique_number_in array_with_one_loop.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+#include <stdio.h> // including stander input output lib
+int main ()
+{
+	int array [100];// array
+	int freq_array [100];//array to save frequency of each element in original array
+	int size ; // variable to save size of array
+	int i ; // counter for loop
+	for (i=0;i<size;i++)
+	{
+		printf("element[%d]= ",i+1);
+		fflush(stdin);fflush(stdout);// clearing the buffer
+		scanf("%d",&array[i]); //scanning value from user
+	}
+	return 0 ;
+}
+

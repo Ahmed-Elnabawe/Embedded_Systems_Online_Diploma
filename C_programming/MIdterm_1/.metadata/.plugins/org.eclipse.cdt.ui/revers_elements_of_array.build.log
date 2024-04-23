@@ -1,0 +1,16 @@
+19:45:51 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+..\revers_elements_of_array.c: In function 'main':
+..\revers_elements_of_array.c:17:31: error: unknown type name 'c'
+  fflush(stdin);fflush(stdout);c
+                               ^
+..\revers_elements_of_array.c:18:8: error: expected declaration specifiers or '...' before string constant
+  scanf("%d",&size);//scanning the value from user
+        ^~~~
+..\revers_elements_of_array.c:18:13: error: expected declaration specifiers or '...' before '&' token
+  scanf("%d",&size);//scanning the value from user
+             ^
+
+19:45:51 Build Finished (took 94ms)
+

@@ -1,0 +1,39 @@
+/*
+ * revers_words_in_string.c
+ *
+ *  Created on: Apr 23, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h>
+#include <string.h>
+void revers_string(char *str [],int size);
+int main ()
+{
+
+	char string [20][50];
+	int i ;
+	int size;
+	printf("enter the number of words : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&size);
+	for (i=0;i<size;i++)
+	{
+		printf("word[%d]:" ,i+1);
+		fflush(stdin);fflush(stdout);
+		scanf("%s",string[i]);
+	}
+	revers_string(string, size);
+	return 0;
+
+}
+void revers_string(char *str [],int size)
+{
+	int i ;
+	for (i=size-1;i>0;i++)
+		{
+			printf("%s",str[i]);
+
+		}
+}

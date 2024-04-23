@@ -1,0 +1,30 @@
+/*
+ * revers_elements_of_array.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h>
+void revers_array(int arr[], int size);
+int main ()
+{
+	int arr [50];
+	int size ;
+	int i ;
+	for (i=0 ;i<size ;i++)
+	{
+		printf("element[%d] : ",i+1);
+		fflush(stdin);fflush(stdout);
+		scanf("%d",&arr[i]);
+	}
+}
+void revers_array(int arr[], int size)
+{
+	int i ;
+	for(i=size;i<0;i++)
+	{
+		printf("%d ",arr[i]);
+	}
+}

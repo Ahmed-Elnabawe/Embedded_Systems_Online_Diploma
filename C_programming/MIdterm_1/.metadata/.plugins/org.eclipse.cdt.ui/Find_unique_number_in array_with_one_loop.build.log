@@ -1,0 +1,7 @@
+19:45:50 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+
+19:45:50 Build Finished (took 297ms)
+

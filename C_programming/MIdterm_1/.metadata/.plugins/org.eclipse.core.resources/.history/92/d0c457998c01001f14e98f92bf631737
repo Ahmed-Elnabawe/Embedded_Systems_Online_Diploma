@@ -1,0 +1,15 @@
+/*
+ * revers_words_in_string.c
+ *
+ *  Created on: Apr 23, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h>
+#include <string.h>
+int main ()
+{
+	char string [20][50]={"mohamed","gammal"};
+	printf("%s",string[1]);
+}

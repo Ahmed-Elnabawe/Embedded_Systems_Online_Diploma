@@ -1,0 +1,14 @@
+/*
+ * Sum_Of_All_Digits.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> // include stander input output lib
+int main()
+{
+	printf("enter the number : ");
+	fflush(stdin);fflush(stdout);
+	return 0;
+}

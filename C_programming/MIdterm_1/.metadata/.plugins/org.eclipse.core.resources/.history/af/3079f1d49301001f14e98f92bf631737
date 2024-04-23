@@ -1,0 +1,39 @@
+/*
+ * count_the_max_number_of_ones_between_two_zeros.c
+ *
+ *  Created on: Apr 23, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h>
+int count_max_number_of_ones(int);
+int main ()
+{
+	int number ;
+	printf("enter the number :");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&number);
+	printf("the max number of ones is : %d " ,count_max_number_of_ones(number));
+
+}
+int count_max_number_of_ones(int number)
+{
+	int i ;
+	int counter;
+	int max=0;
+	for(i=32;i>0;i--)
+	{
+		if(number&(1<<i))
+		{
+			counter++;
+
+		}
+		else
+		{
+			max=(max>=counter)? max : counter;
+			counter=0;
+		}
+	}
+	return max;
+}

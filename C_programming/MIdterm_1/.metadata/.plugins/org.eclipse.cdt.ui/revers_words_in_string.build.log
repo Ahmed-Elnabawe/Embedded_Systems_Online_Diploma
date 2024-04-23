@@ -1,0 +1,7 @@
+19:45:51 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+
+19:45:51 Build Finished (took 407ms)
+

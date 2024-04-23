@@ -1,0 +1,28 @@
+/*
+ * Find_unique_number_in array_with_one_loop.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+#include <stdio.h> // including stander input output lib
+int find_unique(int arr [],int size);
+int main ()
+{
+	int array []={4,2,5,2,5,7,4};// array
+	int size=3 ; // variable to save size of array
+
+
+
+	printf("uni number :%d ",find_unique(array,size));
+	return 0 ;
+}
+int find_unique(int arr [],int size)
+{
+	int result=0;
+	int i ;
+	for (i=0;i<size;i++)
+	{
+		result^=arr[i];
+	}
+	return result;
+}

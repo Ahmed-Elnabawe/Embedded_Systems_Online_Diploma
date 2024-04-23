@@ -1,0 +1,33 @@
+/*
+ * Sum_Of_All_Digits.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+#include <stdio.h> // include stander input output lib
+int Sum_Digits(int);
+int main()
+{
+	int number; // variable to read the value from user
+	int sum=0;// variable to save the output of calling function
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+	sum=Sum_Digits(number);
+	return 0;
+}
+int Sum_Digits(int number)
+{
+	int result;
+	int remain ;
+	if (number == 0 )
+		return 0;
+	else
+	{
+		remain = number % 10;
+		result=remain + Sum_Digits(number/10);
+
+	}
+	return result;
+}

@@ -1,0 +1,46 @@
+/*
+ * Revers_Digit_In_Number.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> // including stander input output lib
+int Number_Length(int);// length function prototype
+int main ()
+{
+	int number; // define variable to read value from user
+	int number_length;
+	int result;
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+	number_length = Number_Length(number);
+	result = Revers_calculator(number,number_length);
+	printf("the reversed number is : %d",result);
+}
+
+int Number_Length(int number )
+{
+	int length=0 ;
+	int remain=1 ; // variable to save the remainder
+	while (remain !=0 )
+	{
+		remain = number / 10 ;
+		length++;
+	}
+	return length;
+}
+
+int Revers_Calculator (int number , int length)
+{
+	int sum =0;
+	int i ; // counter for loop
+	int digit=number % 10;
+	for(i=0;i<length;i++)
+	{
+		digit*=10;
+
+	}
+	sum = digit + Revers_Calculator (number/10 , length-1);
+	return sum;
+}

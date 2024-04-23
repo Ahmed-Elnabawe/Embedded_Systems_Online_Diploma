@@ -1,0 +1,31 @@
+/*
+ * Count_Number_Of Ones_In_Binary_Number.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h> // including stander input output lib
+int main ()
+{
+	int number ;
+	int ones;
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+	ones = Count_Ones(number);
+	printf("the number of ones is : %d",ones);
+}
+int Count_Ones(int number)
+{
+	int i ; // counter for loop
+	int counter ;// calculate number of ones
+	for(i=32 ; i>0;i--)
+	{
+		if(number&(1<<i))
+			counter++;
+
+	}
+	return counter ;
+}

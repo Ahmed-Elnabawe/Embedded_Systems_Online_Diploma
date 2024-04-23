@@ -1,0 +1,25 @@
+/*
+ * Calculate_Square_Root.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Ahmed Elnabawe
+ */
+#include <stdio.h> // include stander input output lib
+int main ()
+{
+	int number; // variable to read the value from user
+	float root=0;// variable to save the output of calling function
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+	root = sqr(number);
+	pritnf("square root of %d is : %0.3f",number,root);
+	return 0;
+}
+float sqr (int number)
+{
+	float i=0.01 ;
+	while(i*i < number)
+		i+=0.01;
+	return i;
+}

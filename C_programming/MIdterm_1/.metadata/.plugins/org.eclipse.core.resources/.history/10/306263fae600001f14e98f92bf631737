@@ -1,0 +1,35 @@
+/*
+ * Find_unique_number_in array_with_one_loop.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+#include <stdio.h> // including stander input output lib
+char find_unique(int arr [],int size);
+int main ()
+{
+	int array [100];// array
+	int size ; // variable to save size of array
+	int i ; // counter for loop
+	printf("enter the size of array : ");//asking user to enter the size of array
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&size);//scanning the size of array from user
+	for (i=0;i<size;i++)
+	{
+		printf("element[%d]= ",i+1); // asking user to enter the element
+		fflush(stdin);fflush(stdout);// clearing the buffer
+		scanf("%d",&array[i]); //scanning value from user
+	}
+	printf("uni number :%c ",find_unique(array,size));
+	return 0 ;
+}
+
+char find_unique(int arr [],int size)
+{
+	//int freq_array [100];//array to save frequency of each element in original array
+	int d = 0 , i ;
+	for(i=0;i<size;i++)
+	{
+		d^=arr[i];
+	}
+}

@@ -1,0 +1,37 @@
+/*
+ * Count_Number_Of Ones_In_Binary_Number.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Ahmed Elnabawe
+ */
+
+
+#include <stdio.h> // including stander input output lib
+int Count_Ones(int);//function prototype
+int main ()
+{
+	int number ; // define variable to read the value from user
+	int ones; // define a variable to save the result from calling the function
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+	ones = Count_Ones(number);// calling the function
+	printf("the number of ones is : %d",ones);// print the result to user
+}
+int Count_Ones(int number)//function definition
+{
+	int i ; // counter for loop
+	int counter ;// calculate number of ones
+	for(i=32 ; i>0;i--) // loop to go to each bit
+	{
+		if(number&(1<<i)) // first we will shift 1 to be in front of the most left bit
+			// then we will make a bitwise AND with the number
+			// all bits after bitwise AND will be zero except the bit in the most left maybe = 0 or =1
+			// if this bit equal 0 so the condition is false and the most left bit in the original number is 0
+			// so we will go to the next bit
+			// and if this bit is equal to 1 so the condition is true and the most left bit in the original number is 1
+			counter++; // if the condition is true increment the counter of ones by one
+
+	}
+	return counter ; //return the counter to main
+}

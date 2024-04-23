@@ -1,0 +1,1733 @@
+01:25:38 **** Rebuild of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+..\Sum_Of_All_Digits.c: In function 'main':
+..\Sum_Of_All_Digits.c:15:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",number);// scanning value from user
+          ^
+..\Sum_Of_All_Digits.c:16:6: warning: implicit declaration of function 'Sum_Digits' [-Wimplicit-function-declaration]
+  sum=Sum_Digits(number);
+      ^~~~~~~~~~
+..\Sum_Of_All_Digits.c:12:6: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+  int sum=0;// variable to save the output of calling function
+      ^~~
+..\Sum_Of_All_Digits.c:15:2: warning: 'number' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",number);// scanning value from user
+  ^~~~~~~~~~~~~~~~~~
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+01:26:19 **** Incremental Build of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+..\Sum_Of_All_Digits.c: In function 'main':
+..\Sum_Of_All_Digits.c:16:6: warning: implicit declaration of function 'Sum_Digits' [-Wimplicit-function-declaration]
+  sum=Sum_Digits(number);
+      ^~~~~~~~~~
+..\Sum_Of_All_Digits.c:12:6: warning: variable 'sum' set but not used [-Wunused-but-set-variable]
+  int sum=0;// variable to save the output of calling function
+      ^~~
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+01:27:40 **** Incremental Build of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+Info: Nothing to build for Sum_Of_All_Digits
+01:35:43 **** Incremental Build of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Sum_Of_All_Digits
+02:04:58 **** Rebuild of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:05:17 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:05:19 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:05:40 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:05:44 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:05:47 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:07:46 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+Info: Nothing to build for Sum_Of_All_Digits
+02:08:22 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+02:08:23 **** Incremental Build of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+..\Sum_Of_All_Digits.c: In function 'main':
+..\Sum_Of_All_Digits.c:17:6: warning: implicit declaration of function 'Sum_Digits' [-Wimplicit-function-declaration]
+  sum=Sum_Digits(number);// calling the function and save the output in sum variable
+      ^~~~~~~~~~
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+02:08:40 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:15:9: warning: implicit declaration of function 'sqr' [-Wimplicit-function-declaration]
+  root = sqr(number);
+         ^~~
+..\Calculate_Square_Root.c:16:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+..\Calculate_Square_Root.c: At top level:
+..\Calculate_Square_Root.c:19:7: error: conflicting types for 'sqr'
+ float sqr (int number)
+       ^~~
+..\Calculate_Square_Root.c:15:9: note: previous implicit declaration of 'sqr' was here
+  root = sqr(number);
+         ^~~
+02:08:40 **** Incremental Build of configuration Debug for project Sum_Of_All_Digits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Sum_Of_All_Digits.o "..\\Sum_Of_All_Digits.c" 
+gcc -o Sum_Of_All_Digits.exe Sum_Of_All_Digits.o 
+02:08:56 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+..\Calculate_Square_Root.c: In function 'main':
+..\Calculate_Square_Root.c:17:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("square root of %d is : %0.3f",number,root);
+  ^~~~~~
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Calculate_Square_Root.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\MIdterm_1\Calculate_Square_Root\Debug/../Calculate_Square_Root.c:17: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+02:09:21 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+02:09:50 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Calculate_Square_Root
+02:10:39 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+02:11:07 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Calculate_Square_Root
+02:11:46 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Calculate_Square_Root.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+02:11:52 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Calculate_Square_Root.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:12:11 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+02:18:53 **** Incremental Build of configuration Debug for project Calculate_Square_Root ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Calculate_Square_Root.o "..\\Calculate_Square_Root.c" 
+gcc -o Calculate_Square_Root.exe Calculate_Square_Root.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Calculate_Square_Root
+02:26:20 **** Rebuild of configuration Debug for project Print_All_Prime_Numbers_Between_Two_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Print_All_Prime_Numbers_Between_Two_Numbers.o "..\\Print_All_Prime_Numbers_Between_Two_Numbers.c" 
+..\Print_All_Prime_Numbers_Between_Two_Numbers.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main (void)
+      ^~~~
+gcc -o Print_All_Prime_Numbers_Between_Two_Numbers.exe Print_All_Prime_Numbers_Between_Two_Numbers.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+02:26:49 **** Incremental Build of configuration Debug for project Print_All_Prime_Numbers_Between_Two_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Print_All_Prime_Numbers_Between_Two_Numbers.o "..\\Print_All_Prime_Numbers_Between_Two_Numbers.c" 
+gcc -o Print_All_Prime_Numbers_Between_Two_Numbers.exe Print_All_Prime_Numbers_Between_Two_Numbers.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Calculate_Square_Root
+02:28:33 **** Incremental Build of configuration Debug for project Print_All_Prime_Numbers_Between_Two_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Print_All_Prime_Numbers_Between_Two_Numbers.o "..\\Print_All_Prime_Numbers_Between_Two_Numbers.c" 
+gcc -o Print_All_Prime_Numbers_Between_Two_Numbers.exe Print_All_Prime_Numbers_Between_Two_Numbers.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Calculate_Square_Root
+15:01:29 **** Incremental Build of configuration Debug for project Print_All_Prime_Numbers_Between_Two_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Print_All_Prime_Numbers_Between_Two_Numbers.o "..\\Print_All_Prime_Numbers_Between_Two_Numbers.c" 
+gcc -o Print_All_Prime_Numbers_Between_Two_Numbers.exe Print_All_Prime_Numbers_Between_Two_Numbers.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:06:32 **** Rebuild of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+..\Revers_Digit_In_Number.c: In function 'Number_Length':
+..\Revers_Digit_In_Number.c:18:9: error: 'remain' undeclared (first use in this function)
+  while (remain !=0 )
+         ^~~~~~
+..\Revers_Digit_In_Number.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\Revers_Digit_In_Number.c:20:7: warning: unused variable 'remain' [-Wunused-variable]
+   int remain ; // variable to save the remainder
+       ^~~~~~
+..\Revers_Digit_In_Number.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:06:39 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+..\Revers_Digit_In_Number.c: In function 'Number_Length':
+..\Revers_Digit_In_Number.c:18:9: error: 'remain' undeclared (first use in this function)
+  while (remain !=0 )
+         ^~~~~~
+..\Revers_Digit_In_Number.c:18:9: note: each undeclared identifier is reported only once for each function it appears in
+..\Revers_Digit_In_Number.c:20:7: warning: unused variable 'remain' [-Wunused-variable]
+   int remain ; // variable to save the remainder
+       ^~~~~~
+..\Revers_Digit_In_Number.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:07:04 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+..\Revers_Digit_In_Number.c: In function 'Number_Length':
+..\Revers_Digit_In_Number.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\Revers_Digit_In_Number.c:19:8: warning: 'remain' is used uninitialized in this function [-Wuninitialized]
+  while (remain !=0 )
+        ^
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:09:42 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:19:16 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+..\Revers_Digit_In_Number.c: In function 'main':
+..\Revers_Digit_In_Number.c:18:11: warning: implicit declaration of function 'Revers_calculator' [-Wimplicit-function-declaration]
+  result = Revers_calculator(number,number_length);
+           ^~~~~~~~~~~~~~~~~
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Revers_Digit_In_Number.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\MIdterm_1\Revers_Digit_In_Number\Debug/../Revers_Digit_In_Number.c:18: undefined reference to `Revers_calculator'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:20:00 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+..\Revers_Digit_In_Number.c: In function 'main':
+..\Revers_Digit_In_Number.c:19:11: warning: implicit declaration of function 'Revers_calculator' [-Wimplicit-function-declaration]
+  result = Revers_calculator(number,number_length);
+           ^~~~~~~~~~~~~~~~~
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Revers_Digit_In_Number.o: In function `main':
+G:\Embedded Systems Diploma\git\Embedded_Systems_Online_Diploma\C_programming\MIdterm_1\Revers_Digit_In_Number\Debug/../Revers_Digit_In_Number.c:19: undefined reference to `Revers_calculator'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:20:18 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:21:42 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+15:22:05 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:23:04 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+15:23:18 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:23:22 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:23:43 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Revers_Digit_In_Number
+15:25:02 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:30:06 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+15:30:11 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:30:18 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:33:41 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Sum_Of_All_Digits
+15:33:43 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Revers_Digit_In_Number.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:33:51 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+15:54:01 **** Incremental Build of configuration Debug for project Revers_Digit_In_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Revers_Digit_In_Number.o "..\\Revers_Digit_In_Number.c" 
+gcc -o Revers_Digit_In_Number.exe Revers_Digit_In_Number.o 
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Calculate_Square_Root
+16:04:21 **** Rebuild of configuration Debug for project Count_Number_Of Ones_In_Binary_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Count_Number_Of Ones_In_Binary_Number.o" "..\\Count_Number_Of Ones_In_Binary_Number.c" 
+..\Count_Number_Of Ones_In_Binary_Number.c: In function 'main':
+..\Count_Number_Of Ones_In_Binary_Number.c:17:9: warning: implicit declaration of function 'Count_Ones' [-Wimplicit-function-declaration]
+  ones = Count_Ones(number);
+         ^~~~~~~~~~
+gcc -o "Count_Number_Of Ones_In_Binary_Number.exe" "Count_Number_Of Ones_In_Binary_Number.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Calculate_Square_Root
+16:05:12 **** Incremental Build of configuration Debug for project Count_Number_Of Ones_In_Binary_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Count_Number_Of Ones_In_Binary_Number.o" "..\\Count_Number_Of Ones_In_Binary_Number.c" 
+..\Count_Number_Of Ones_In_Binary_Number.c: In function 'main':
+..\Count_Number_Of Ones_In_Binary_Number.c:17:9: warning: implicit declaration of function 'Count_Ones' [-Wimplicit-function-declaration]
+  ones = Count_Ones(number);
+         ^~~~~~~~~~
+gcc -o "Count_Number_Of Ones_In_Binary_Number.exe" "Count_Number_Of Ones_In_Binary_Number.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Calculate_Square_Root
+16:19:32 **** Incremental Build of configuration Debug for project Count_Number_Of Ones_In_Binary_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Count_Number_Of Ones_In_Binary_Number.o" "..\\Count_Number_Of Ones_In_Binary_Number.c" 
+gcc -o "Count_Number_Of Ones_In_Binary_Number.exe" "Count_Number_Of Ones_In_Binary_Number.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:08:52 **** Rebuild of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:11:6: warning: unused variable 'freq_array' [-Wunused-variable]
+  int freq_array [100];//array to save frequency of each element in original array
+      ^~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:14:2: warning: 'size' is used uninitialized in this function [-Wuninitialized]
+  for (i=0;i<size;i++)
+  ^~~
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:09:33 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:11:6: warning: unused variable 'freq_array' [-Wunused-variable]
+  int freq_array [100];//array to save frequency of each element in original array
+      ^~~~~~~~~~
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:09:39 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:11:6: warning: unused variable 'freq_array' [-Wunused-variable]
+  int freq_array [100];//array to save frequency of each element in original array
+      ^~~~~~~~~~
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:13:25 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:11:6: warning: unused variable 'freq_array' [-Wunused-variable]
+  int freq_array [100];//array to save frequency of each element in original array
+      ^~~~~~~~~~
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:13:29 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:13:40 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:27:09 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:22:25: warning: implicit declaration of function 'find_unique' [-Wimplicit-function-declaration]
+  printf("uni number : ",find_unique(array,size));
+                         ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:22:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("uni number : ",find_unique(array,size));
+         ^~~~~~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c: At top level:
+..\Find_unique_number_in array_with_one_loop.c:26:6: error: conflicting types for 'find_unique'
+ char find_unique(int arr [],int size)
+      ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:22:25: note: previous implicit declaration of 'find_unique' was here
+  printf("uni number : ",find_unique(array,size));
+                         ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c: In function 'find_unique':
+..\Find_unique_number_in array_with_one_loop.c:34:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:27:27 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'main':
+..\Find_unique_number_in array_with_one_loop.c:23:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("uni number : ",find_unique(array,size));
+         ^~~~~~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c: In function 'find_unique':
+..\Find_unique_number_in array_with_one_loop.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:28:17 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'find_unique':
+..\Find_unique_number_in array_with_one_loop.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:29:13 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c: In function 'find_unique':
+..\Find_unique_number_in array_with_one_loop.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:32:20 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:34:36 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:34:38 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:34:56 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:35:37 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:40:36 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c:26:5: error: conflicting types for 'find_unique'
+ int find_unique(int arr [],int size)
+     ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:8:6: note: previous declaration of 'find_unique' was here
+ char find_unique(int arr [],int size);
+      ^~~~~~~~~~~
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:40:40 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c:26:5: error: conflicting types for 'find_unique'
+ int find_unique(int arr [],int size)
+     ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:8:6: note: previous declaration of 'find_unique' was here
+ char find_unique(int arr [],int size);
+      ^~~~~~~~~~~
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:40:47 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c:26:5: error: conflicting types for 'find_unique'
+ int find_unique(int arr [],int size)
+     ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:8:6: note: previous declaration of 'find_unique' was here
+ char find_unique(int arr [],int size);
+      ^~~~~~~~~~~
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:40:50 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c:26:5: error: conflicting types for 'find_unique'
+ int find_unique(int arr [],int size)
+     ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:8:6: note: previous declaration of 'find_unique' was here
+ char find_unique(int arr [],int size);
+      ^~~~~~~~~~~
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:41:23 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+..\Find_unique_number_in array_with_one_loop.c:26:5: error: conflicting types for 'find_unique'
+ int find_unique(int arr [],int size)
+     ^~~~~~~~~~~
+..\Find_unique_number_in array_with_one_loop.c:8:6: note: previous declaration of 'find_unique' was here
+ char find_unique(int arr [],int size);
+      ^~~~~~~~~~~
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:41:46 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:55:47 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:56:04 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:56:07 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:56:26 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:58:13 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+22:58:15 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Find_unique_number_in array_with_one_loop.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:58:28 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:59:12 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+22:59:51 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+23:01:38 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+23:21:13 **** Rebuild of configuration Debug for project sum_from1_100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sum_from1_100.o "..\\sum_from1_100.c" 
+..\sum_from1_100.c: In function 'main':
+..\sum_from1_100.c:15:59: error: expected ')' before ';' token
+  printf("the sum from 1 to %d is : %d ",number,sum(number);//print the result to user
+                                                           ^
+..\sum_from1_100.c:16:1: error: expected ';' before '}' token
+ }
+ ^
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+23:21:22 **** Incremental Build of configuration Debug for project sum_from1_100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o sum_from1_100.o "..\\sum_from1_100.c" 
+gcc -o sum_from1_100.exe sum_from1_100.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:38:24 **** Rebuild of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+..\revers_elements_of_array.c: In function 'main':
+..\revers_elements_of_array.c:18:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("element[%d] : ");
+                    ^
+..\revers_elements_of_array.c:16:2: warning: 'size' is used uninitialized in this function [-Wuninitialized]
+  for (i=0 ;i<size ;i++)
+  ^~~
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:39:05 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+..\revers_elements_of_array.c: In function 'main':
+..\revers_elements_of_array.c:16:2: warning: 'size' is used uninitialized in this function [-Wuninitialized]
+  for (i=0 ;i<size ;i++)
+  ^~~
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:40:17 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:40:54 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:41:36 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:42:39 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:43:05 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+12:43:33 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+gcc -o revers_elements_of_array.exe revers_elements_of_array.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+12:49:18 **** Rebuild of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:14:45 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",size);
+          ^
+..\revers_words_in_string.c:13:6: warning: unused variable 'number_of_names' [-Wunused-variable]
+  int number_of_names;
+      ^~~~~~~~~~~~~~~
+..\revers_words_in_string.c: At top level:
+..\revers_words_in_string.c:28:25: error: array type has incomplete element type 'char[]'
+ void revers_string(char str [][],int size)
+                         ^~~
+..\revers_words_in_string.c:28:25: note: declaration of 'str' as multidimensional array must have bounds for all dimensions except the first
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:15:21 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:19:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",size);
+          ^
+..\revers_words_in_string.c:13:6: warning: unused variable 'number_of_names' [-Wunused-variable]
+  int number_of_names;
+      ^~~~~~~~~~~~~~~
+..\revers_words_in_string.c:19:2: warning: 'size' is used uninitialized in this function [-Wuninitialized]
+  scanf("%d",size);
+  ^~~~~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:16:44 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:13:6: warning: unused variable 'number_of_names' [-Wunused-variable]
+  int number_of_names;
+      ^~~~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file revers_words_in_string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:16:57 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file revers_words_in_string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for sum_from1_100
+18:17:04 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file revers_words_in_string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:17:16 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:18:14 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:26:2: warning: implicit declaration of function 'revers_string' [-Wimplicit-function-declaration]
+  revers_string(string, size);
+  ^~~~~~~~~~~~~
+..\revers_words_in_string.c: At top level:
+..\revers_words_in_string.c:30:6: warning: conflicting types for 'revers_string'
+ void revers_string(char *str [],int size)
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c:26:2: note: previous implicit declaration of 'revers_string' was here
+  revers_string(string, size);
+  ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:19:06 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:19:30 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c: At top level:
+..\revers_words_in_string.c:31:25: error: array type has incomplete element type 'char[]'
+ void revers_string(char str[][],int size)
+                         ^~~
+..\revers_words_in_string.c:31:25: note: declaration of 'str' as multidimensional array must have bounds for all dimensions except the first
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:19:56 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c: At top level:
+..\revers_words_in_string.c:31:6: error: conflicting types for 'revers_string'
+ void revers_string(char str[20][50],int size)
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c:11:6: note: previous declaration of 'revers_string' was here
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:20:18 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:21:27 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(*string, size);
+                ^
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char *'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:25:04 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(*string, size);
+                ^
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char *'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:25:15 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c: At top level:
+..\revers_words_in_string.c:31:6: error: conflicting types for 'revers_string'
+ void revers_string(char str[],int size)
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c:11:6: note: previous declaration of 'revers_string' was here
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+..\revers_words_in_string.c: In function 'revers_string':
+..\revers_words_in_string.c:36:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+    printf("%s",str[i]);
+             ^
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:26:09 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str [],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:26:52 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char **str ,int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:27:34 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str[],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:27:52 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:23: error: expected expression before ',' token
+  revers_string(string*, size);
+                       ^
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:27:59 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(*string, size);
+                ^
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char *'
+ void revers_string(char *str[],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:28:06 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str[],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:28:55 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:29:34 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:30:08 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:30:38 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:30:57 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:32:08 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+..\revers_words_in_string.c: In function 'main':
+..\revers_words_in_string.c:27:16: warning: passing argument 1 of 'revers_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  revers_string(string, size);
+                ^~~~~~
+..\revers_words_in_string.c:11:6: note: expected 'char **' but argument is of type 'char (*)[50]'
+ void revers_string(char *str[],int size);
+      ^~~~~~~~~~~~~
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for revers_elements_of_array
+18:33:14 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:05:27 **** Rebuild of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+..\count_the_max_number_of_ones_between_two_zeros.c: In function 'main':
+..\count_the_max_number_of_ones_between_two_zeros.c:17:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("the max number of ones is : " ,count_max_number_of_ones(number));
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:05:52 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:06:32 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:08:13 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file count_the_max_number_of_ones_between_two_zeros.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+19:08:17 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file count_the_max_number_of_ones_between_two_zeros.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:08:52 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:10:52 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:13:35 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file count_the_max_number_of_ones_between_two_zeros.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+19:13:38 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file count_the_max_number_of_ones_between_two_zeros.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:13:46 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:15:27 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:15:35 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:15:54 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:18:22 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for Calculate_Square_Root
+Info: Nothing to build for Count_Number_Of Ones_In_Binary_Number
+Info: Nothing to build for Find_unique_number_in array_with_one_loop
+19:19:50 **** Incremental Build of configuration Debug for project Print_All_Prime_Numbers_Between_Two_Numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Print_All_Prime_Numbers_Between_Two_Numbers.o "..\\Print_All_Prime_Numbers_Between_Two_Numbers.c" 
+gcc -o Print_All_Prime_Numbers_Between_Two_Numbers.exe Print_All_Prime_Numbers_Between_Two_Numbers.o 
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for revers_elements_of_array
+Info: Nothing to build for revers_words_in_string
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Calculate_Square_Root
+19:45:50 **** Incremental Build of configuration Debug for project Count_Number_Of Ones_In_Binary_Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Count_Number_Of Ones_In_Binary_Number.o" "..\\Count_Number_Of Ones_In_Binary_Number.c" 
+gcc -o "Count_Number_Of Ones_In_Binary_Number.exe" "Count_Number_Of Ones_In_Binary_Number.o" 
+19:45:50 **** Incremental Build of configuration Debug for project Find_unique_number_in array_with_one_loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "Find_unique_number_in array_with_one_loop.o" "..\\Find_unique_number_in array_with_one_loop.c" 
+gcc -o "Find_unique_number_in array_with_one_loop.exe" "Find_unique_number_in array_with_one_loop.o" 
+Info: Nothing to build for Print_All_Prime_Numbers_Between_Two_Numbers
+Info: Nothing to build for Revers_Digit_In_Number
+Info: Nothing to build for Sum_Of_All_Digits
+19:45:50 **** Incremental Build of configuration Debug for project count_the_max_number_of_ones_between_two_zeros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o count_the_max_number_of_ones_between_two_zeros.o "..\\count_the_max_number_of_ones_between_two_zeros.c" 
+gcc -o count_the_max_number_of_ones_between_two_zeros.exe count_the_max_number_of_ones_between_two_zeros.o 
+19:45:51 **** Incremental Build of configuration Debug for project revers_elements_of_array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_elements_of_array.o "..\\revers_elements_of_array.c" 
+..\revers_elements_of_array.c: In function 'main':
+..\revers_elements_of_array.c:17:31: error: unknown type name 'c'
+  fflush(stdin);fflush(stdout);c
+                               ^
+..\revers_elements_of_array.c:18:8: error: expected declaration specifiers or '...' before string constant
+  scanf("%d",&size);//scanning the value from user
+        ^~~~
+..\revers_elements_of_array.c:18:13: error: expected declaration specifiers or '...' before '&' token
+  scanf("%d",&size);//scanning the value from user
+             ^
+19:45:51 **** Incremental Build of configuration Debug for project revers_words_in_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o revers_words_in_string.o "..\\revers_words_in_string.c" 
+gcc -o revers_words_in_string.exe revers_words_in_string.o 
+Info: Nothing to build for sum_from1_100
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros
+Info: Nothing to build for count_the_max_number_of_ones_between_two_zeros

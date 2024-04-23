@@ -1,0 +1,16 @@
+/*
+ * Count_Number_Of Ones_In_Binary_Number.c
+ *
+ *  Created on: Apr 22, 2024
+ *      Author: Lenovo
+ */
+
+
+#include <stdio.h> // including stander input output lib
+int main ()
+{
+	int number ;
+	printf("enter the number : "); // asking user to enter the value
+	fflush(stdin);fflush(stdout);// clearing the buffer
+	scanf("%d",&number);// scanning value from user
+}
